@@ -1,0 +1,53 @@
+body
+{
+    display: flex;
+    height: 100vh;
+}
+
+.brand-name
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom left, #b2b7e2, #d6d8eb , white);
+}
+
+.login-register
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(black,#212121);
+    color: white;
+    padding-bottom: 150px;
+}
+
+
+.brand-name > p
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+.brand-name > p > span
+{
+    font-size: 6rem;
+}
+
+.login-register > div > P
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-top: 150px;
+    word-spacing: 70px;
+    padding-bottom: 50px;
+}
+
+
+

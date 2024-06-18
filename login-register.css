@@ -1,0 +1,213 @@
+.login-register-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 60px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.login-register-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-username
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#login-password
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-username > p
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.login-password > p
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+.login
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login > button
+{
+    width: 300px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 8px;
+}
+
+.login-username
+{
+    margin: 40px 0px;
+}
+
+.login-password
+{
+    margin: 40px 0px;
+}
+
+.login-username > input
+{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.login-password > input
+{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.register-form
+{
+    display: none;
+}
+
+
+
+
+
+
+
+#register-email
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+#register-username
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#register-password
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.register-email > p
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+.register-username > p
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.register-password > p
+{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+
+.register
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.register > button
+{
+    width: 300px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 8px;
+}
+
+.register-username
+{
+    margin: 40px 0px;
+}
+
+.register-password
+{
+    margin: 40px 0px;
+}
+
+.register-username > input
+{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.register-password > input
+{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
