@@ -50,4 +50,38 @@ body
 }
 
 
+@media (max-width: 767px)
+{
+    body 
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .brand-name > p
+    {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .brand-name > p  > span
+    {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .brand-name
+    {
+        padding: 80px 0px;
+    }
+    #login
+    {
+        font-size: 1rem;
+    }
+    #register
+    {
+        font-size: 1rem;
+    }
+    .login-register
+    {
+        width: 100%;
+    }
+}
